@@ -22,7 +22,7 @@ import android.widget.TextView;
 
 public class RTPullListView extends ListView implements OnScrollListener {  
 	private static final String TAG = "RTPullListView";
-
+//
 	private final static int RELEASE_To_REFRESH = 0; //松开刷新
 	private final static int PULL_To_REFRESH = 1; //下拉刷新
 	private final static int REFRESHING = 2; 
